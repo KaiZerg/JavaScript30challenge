@@ -4,14 +4,20 @@ function playSound(e) {
     if(!audio) return; // stop the function from running all together
 
     audio.currentTime = 0; // rewind to the start
-    audio.play();
-    key.classList.add('playing');
+    audio.play();  // play audio
+    key.classList.add('playing'); //adding class playing
 }
 function removeTransition(e) {
     if(e.propertyName !== 'transform') return; // skip it if it's not a transform
-    this.classList.remove('playing');
+    this.classList.remove('playing');  //removing class playing
 }
 
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
+
+//What i Learned?
+//key events 
+//playing audio
+//listening for the transitionend event
+//dealing with animations, listening for animation end events
