@@ -16,8 +16,3 @@ const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
 
-//What i Learned?
-//key events 
-//playing audio
-//listening for the transitionend event
-//dealing with animations, listening for animation end events
