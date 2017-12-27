@@ -1,3 +1,6 @@
+![cover image](https://github.com/KaiZerg/JavaScript30challenge/blob/gh-pages/02%20-%20JS%20and%20CSS%20Clock/images/project%20screen.jpg )
+
+
 -WHAT DID I LEARN?
 
 
