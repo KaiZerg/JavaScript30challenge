@@ -7,11 +7,11 @@ WHAT DID I LEARN?
 
 2)--base: #ffc600 - defining variable, -- equal to $ in sass;
 
-3) padding: var(--spacing) - assining var to the element property;
+3)padding: var(--spacing) - assining var to the element property;
 
-4) querySelectorAll to select all inputs. It returns Node list(look likes an array);
+4)querySelectorAll to select all inputs. It returns Node list(look likes an array);
 
-5) Node list Vs Array - is that array has all kinds of different methods to deal with arrays.
+5)Node list Vs Array - is that array has all kinds of different methods to deal with arrays.
 Node list has only a few methods;
 
 6)data- attribues used to define data-sizing=px of the inputs in html;
