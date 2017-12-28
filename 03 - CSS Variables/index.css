@@ -1,0 +1,55 @@
+/* root is the highest level to declaire variables */
+:root {
+  /* defining variables */
+  --base: #ff6666;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  /* -- equal to $ in sass */
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+/* adding styles to JS span */
+.hl {
+  color: var(--base);
+}
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width:100px;
+}
+/* Imported styles for range filter */
+.slider_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+.slider_range::-moz-range-thumb {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
