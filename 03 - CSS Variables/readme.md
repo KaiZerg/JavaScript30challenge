@@ -1,5 +1,7 @@
-WHAT DID I LEARN?
+![cover image](https://github.com/KaiZerg/JavaScript30challenge/blob/gh-pages/03%20-%20CSS%20Variables/images/2.jpg )
 
+
+WHAT DID I LEARN?
 
 1):root is highest level to declaire var in css;
 
